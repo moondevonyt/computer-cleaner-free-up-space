@@ -1,0 +1,29 @@
+# Moon Dev's .gitignore - keep the repo clean
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Secrets - NEVER commit these
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
